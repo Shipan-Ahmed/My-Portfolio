@@ -50,7 +50,7 @@ const About = () => {
 
                         <p className="text-muted leading-8 text-lg">
 
-                            I am a Computer Science graduate and an aspiring
+                            I am a Computer Science & Engineering graduate and an aspiring
                             Software Engineer with a strong interest in
                             full-stack development and problem solving.
 

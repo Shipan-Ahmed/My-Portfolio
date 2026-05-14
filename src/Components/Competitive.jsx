@@ -166,7 +166,7 @@ const Competitive = () => {
                             <div className="flex justify-between items-center bg-red-500 ">
 
                                 <div className="w-12 h-12 rounded-full bg-violet-500/10 flex items-center justify-center">
-                                    <Image src={item?.icon} alt={item?.name} width={100} height={48} className="mx-auto" />
+                                    <Image src={item?.icon} alt={item?.name} width={200} height={200} className="mx-auto" />
                                 </div>
 
                                 {/* <div
