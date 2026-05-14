@@ -94,7 +94,7 @@ const Hero = () => {
                                     alt="profile"
                                     width={380}
                                     height={450}
-                                    className="rounded-3xl object-cover"
+                                    className="rounded-3xl object-cover p-none"
                                 />
 
                             </div>

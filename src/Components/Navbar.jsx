@@ -7,9 +7,12 @@ import { Menu, X } from 'lucide-react';
 
 
 const navLinks = [
+    { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
+    { name: "Competitive", href: "#competitive" },
     { name: "Projects", href: "#projects" },
+    { name: "Education", href: "#education" },
     { name: "Contact", href: "#contact" },
 ];
 
@@ -31,15 +34,15 @@ const Navbar = () => {
                     </Link>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex items-center gap-8">
+                    <ul className="hidden md:flex items-center gap-5">
                         {navLinks.map((item) => (
                             <li key={item.name}>
-                                <a
+                                <Link
                                     href={item.href}
                                     className="text-sm text-zinc-300 hover:text-white transition"
                                 >
                                     {item.name}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -66,13 +69,13 @@ const Navbar = () => {
                         <ul className="flex flex-col gap-5">
                             {navLinks.map((item) => (
                                 <li key={item.name}>
-                                    <a
+                                    <Link
                                         href={item.href}
                                         onClick={() => setOpen(false)}
                                         className="text-zinc-300"
                                     >
                                         {item.name}
-                                    </a>
+                                    </Link>
                                 </li>
                             ))}
 
