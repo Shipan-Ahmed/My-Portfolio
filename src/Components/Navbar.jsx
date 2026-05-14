@@ -46,7 +46,7 @@ const Navbar = () => {
 
                     {/* Resume Button */}
                     <div className="hidden md:block">
-                        <button className="primary-btn">
+                        <button className="primary-btn px-6 py-3 rounded-2xl border border-zinc-800 hover:bg-zinc-900 transition">
                             Resume
                         </button>
                     </div>
