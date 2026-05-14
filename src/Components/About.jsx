@@ -48,7 +48,7 @@ const About = () => {
 
                     <div>
 
-                        <p className="text-muted leading-8 text-lg">
+                        <p className="text-muted leading-8 text-lg text-justify">
 
                             I am a Computer Science & Engineering graduate and an aspiring
                             Software Engineer with a strong interest in
