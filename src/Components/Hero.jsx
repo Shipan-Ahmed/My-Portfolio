@@ -32,9 +32,7 @@ const Hero = () => {
 
                         <p className="text-muted mt-7 text-lg max-w-2xl leading-8">
 
-                            I build modern full-stack web applications and
-                            enjoy solving problems through software,
-                            competitive programming, and scalable systems.
+                            Competitive Programmer & Full Stack Developer.
                         </p>
 
                         <div className="flex flex-wrap gap-4 mt-10 ">
@@ -43,9 +41,11 @@ const Hero = () => {
                                 View Projects
                             </button>
 
-                            <button className="px-6 py-3 rounded-2xl border border-zinc-800 hover:bg-zinc-900 transition">
-                                Download Resume
-                            </button>
+                            <Link href="/Resume.pdf" target="_blank">
+                                <button className="px-6 py-3 rounded-2xl border border-zinc-800 hover:bg-zinc-900 transition">
+                                    Download Resume
+                                </button>
+                            </Link>
 
                         </div>
 

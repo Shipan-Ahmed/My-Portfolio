@@ -79,9 +79,11 @@ const Navbar = () => {
                                 </li>
                             ))}
 
-                            <button className="primary-btn mt-3">
-                                Resume
-                            </button>
+                            <Link href="/Resume.pdf" target="_blank">
+                                <button className="primary-btn mt-3">
+                                    Resume
+                                </button>
+                            </Link>
                         </ul>
                     </div>
                 )}
