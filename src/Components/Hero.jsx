@@ -6,6 +6,7 @@ import { Code2 } from "lucide-react";
 import { BsGithub } from "react-icons/bs";
 import { LiaLinkedin } from "react-icons/lia";
 import Image from "next/image";
+import { Button } from '@heroui/react';
 
 const Hero = () => {
     return (
@@ -37,14 +38,14 @@ const Hero = () => {
 
                         <div className="flex flex-wrap gap-4 mt-10 ">
 
-                            <button className="primary-btn">
+                            <Button className="primary-btn">
                                 View Projects
-                            </button>
+                            </Button>
 
-                            <Link href="/Resume.pdf" target="_blank">
-                                <button className="px-6 py-3 rounded-2xl border border-zinc-800 hover:bg-zinc-900 transition">
-                                    Download Resume
-                                </button>
+                            <Link href="/Resume.pdf" target="_blank" rel="noopener noreferrer" >
+                                <Button className=" primary-btn ">
+                                    Resume
+                                </Button>
                             </Link>
 
                         </div>

@@ -49,9 +49,11 @@ const Navbar = () => {
 
                     {/* Resume Button */}
                     <div className="hidden md:block">
-                        <button className="primary-btn px-6 py-3 rounded-2xl border border-zinc-800 hover:bg-zinc-900 transition">
-                            Resume
-                        </button>
+                        <Link href="/#contact" >
+                            <button className="primary-btn px-6 py-3 rounded-2xl border border-zinc-800 hover:bg-zinc-900 transition">
+                                Hire Me
+                            </button>
+                        </Link>
                     </div>
 
                     {/* Mobile Icon */}
@@ -79,9 +81,9 @@ const Navbar = () => {
                                 </li>
                             ))}
 
-                            <Link href="/Resume.pdf" target="_blank">
+                            <Link href="/#contact" target="_blank">
                                 <button className="primary-btn mt-3">
-                                    Resume
+                                    Hire Me
                                 </button>
                             </Link>
                         </ul>

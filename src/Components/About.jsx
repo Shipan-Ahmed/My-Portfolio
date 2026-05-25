@@ -28,7 +28,7 @@ const cards = [
 const About = () => {
     return (
         <section id="about">
-            <div className="container-custom">
+            <div className="container-custom gap-10 flex flex-col">
 
                 <div className="text-center mb-16">
 
@@ -42,7 +42,7 @@ const About = () => {
 
                 </div>
 
-                <div className="grid lg:grid-cols-2 gap-14 items-center">
+                <div className="grid lg:grid-cols-2 gap-14  items-center">
 
 
 

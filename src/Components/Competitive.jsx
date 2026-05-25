@@ -5,31 +5,31 @@ import Image from "next/image";
 
 const platforms = [
     {
-        icon: "/public/codeforces.png",
+        icon: "/public/projects/codeforces.png",
         name: "Codeforces",
         handle: "S.H.I.P.A.N",
         solved: "1400+",
-        max_rating: "1381",
+        max_rating: "1388",
         badge: "Pupil",
         link: "#",
     },
 
     {
-        icon: "/public/leetcode.png",
+        icon: "/public/projects/leetcode.png",
         name: "LeetCode",
         handle: "Lazy_coder",
         solved: "250+",
-        max_rating: "1578+",
+        max_rating: "1572",
         badge: "Active",
         link: "#",
     },
 
     {
-        icon: "/public/codechef.png",
+        icon: "/public/projects/codechef.jpg",
         name: "CodeChef",
         handle: "shipan",
         solved: "250+",
-        max_rating: "1650+",
+        max_rating: "1666",
         badge: "Active",
         link: "#",
     },
@@ -163,11 +163,11 @@ const Competitive = () => {
             "
                         >
 
-                            <div className="flex justify-between items-center bg-red-500 ">
+                            <div className="flex justify-between items-center mb-4 ">
 
-                                <div className="w-12 h-12 rounded-full bg-violet-500/10 flex items-center justify-center">
-                                    <Image src={item?.icon} alt={item?.name} width={200} height={200} className="mx-auto" />
-                                </div>
+                                {/* <div className="w-50 h-50 rounded-full bg-violet-500/10 flex items-center justify-center"> */}
+                                    <Image src={item?.icon} alt={item?.name} width={50} height={50} className="mx-auto" />
+                                {/* </div> */}
 
                                 {/* <div
                                     className="
@@ -210,7 +210,7 @@ const Competitive = () => {
                                 <div>
 
                                     <p className="text-muted text-sm">
-                                        Rating
+                                        Max Rating
                                     </p>
 
                                     <h2 className="font-bold text-xl">

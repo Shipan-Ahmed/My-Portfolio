@@ -8,7 +8,7 @@ const educationData = [
         degree: "B.Sc (Engineering) in Computer Science & Engineering",
         institution: "Begum Rokeya University, Rangpur",
         duration: "2020 — 2025",
-        cgpa: "CGPA: 3.01 / 4.00",
+        // cgpa: "CGPA: 3.01 / 4.00",
         location: "Rangpur, Bangladesh",
     },
 
@@ -16,7 +16,7 @@ const educationData = [
         degree: "Higher Secondary Certificate (HSC)",
         institution: "Hazi Asmot Government College",
         duration: "2016 — 2018",
-        cgpa: "GPA: 4.08 / 5.00",
+        // cgpa: "GPA: 4.08 / 5.00",
         location: "Bhairab, Kishoreganj, Bangladesh",
     },
 
@@ -24,7 +24,7 @@ const educationData = [
         degree: "Secondary School Certificate (SSC)",
         institution: "Chatalpar Waz Uddin High School",
         duration: "2011 — 2016",
-        cgpa: "GPA: 4.83 / 5.00",
+        // cgpa: "GPA: 4.83 / 5.00",
         location: "Nasirnagar , Brahmanbaria, Bangladesh",
     },
 ];
